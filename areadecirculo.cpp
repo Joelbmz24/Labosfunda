@@ -8,7 +8,7 @@ int main() {
      
      cout<<"digitar radio: "; cin>>radio;
 
-     float area = 3.1416 * radio*radio;
+     float area = 3.1416 * pow(radio,2);
      
      
      cout<<"el area del circulo es: "<<area<<endl;
